@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GameData - Sources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo_Game_Data-1.jpeg" alt="">
+            <h1>GameData</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="explorer.html">Explorer</a>
+            <a href="comparer.html">Comparer</a>
+            <a href="sources.html" class="actif">Sources</a>
+        </nav>
+    </header>
+
+    <main class="page-sources">
+        <h2>Sources</h2>
+
+        <p>
+            Découvrez l'origine des données, leur préparation et les limites
+            à prendre en compte pour interpréter les résultats.
+        </p>
+
+        <section>
+            <h2>Origine des données</h2>
+            <p>
+                GameData utilise le fichier Game_Data_Final.csv, qui rassemble
+                des informations sur les jeux vidéo : titre, console,
+                développeur, éditeur, genre, date de sortie, notes critiques
+                et ventes mondiales et régionales.
+            </p>
+            <p>
+                Les sources mentionnées dans notre dossier sont des jeux de
+                données disponibles sur Kaggle, issus notamment de VGChartz
+                et de Metacritic.
+            </p>
+        </section>
+
+        <section>
+            <h2>Comprendre les indicateurs</h2>
+            <p>
+                Les ventes sont exprimées en millions d'exemplaires.
+                Elles correspondent aux ventes recensées dans la base.
+            </p>
+            <p>
+                Un même jeu peut apparaître sur plusieurs consoles. Le nombre
+                de fiches jeu-console est donc différent du nombre de titres
+                distincts.
+            </p>
+        </section>
+
+        <section>
+            <h2>Préparation des données</h2>
+            <p>
+                Les données sont regroupées dans un fichier commun pour
+                permettre leur exploration et leur comparaison. Les différentes
+                versions d'un jeu sur plusieurs consoles sont distinguées.
+            </p>
+            <p>
+                Les traitements appliqués aux dates, aux doublons, aux valeurs
+                manquantes et aux notes seront à préciser à partir des
+                opérations effectivement réalisées par le groupe.
+            </p>
+        </section>
+
+        <section>
+            <h2>Limites et interprétation</h2>
+            <p>
+                La base ne couvre pas nécessairement tous les jeux ni toutes
+                leurs ventes. Une donnée absente ne signifie pas une vente
+                nulle ou une note égale à zéro.
+            </p>
+            <p>
+                Les graphiques par année regroupent les jeux selon leur année
+                de sortie : ils ne représentent pas les ventes réalisées
+                pendant chaque année.
+            </p>
+            <p>
+                Les résultats dépendent de la couverture des données
+                disponibles. Ils ne permettent pas, à eux seuls, de prévoir
+                les ventes futures ni d'expliquer les causes du succès d'un jeu.
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>

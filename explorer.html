@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GameData - Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo_Game_Data-1.jpeg" alt="">
+            <h1>GameData</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="explorer.html" class="actif">Explorer</a>
+            <a href="comparer.html">Comparer</a>
+            <a href="sources.html">Sources</a>
+        </nav>
+    </header>
+
+    <main class="page-explorer">
+        <h2>Explorer les données</h2>
+        <p>Filtrez et explorez les ventes de jeux vidéo selon vos critères.</p>
+
+        <form>
+            <label for="periode">Période</label>
+            <select id="periode" name="periode">
+                <option value="">Toutes les périodes</option>
+            </select>
+
+            <label for="console">Console</label>
+            <select id="console" name="console">
+                <option value="">Toutes les consoles</option>
+            </select>
+
+            <label for="genre">Genre</label>
+            <select id="genre" name="genre">
+                <option value="">Tous les genres</option>
+            </select>
+
+            <label for="editeur">Éditeur</label>
+            <select id="editeur" name="editeur">
+                <option value="">Tous les éditeurs</option>
+            </select>
+
+            <button type="submit">Appliquer</button>
+        </form>
+		<div class="indicateurs">
+			<div class="indicateur">
+				<h3>Ventes totales</h3>
+				<p>À calculer</p>
+			</div>
+
+			<div class="indicateur">
+				<h3>Nombre de jeux</h3>
+				<p>À calculer</p>
+			</div>
+
+			<div class="indicateur">
+				<h3>Note moyenne</h3>
+				<p>À calculer</p>
+			</div>
+		</div>
+		<div class="resultat">
+			<h3>Ventes par genre</h3>
+			<p>Le graphique apparaîtra ici.</p>
+		</div>
+
+		<div class="resultat">
+			<h3>Classement des jeux</h3>
+			<p>Le classement apparaîtra ici.</p>
+		</div>
+    </main>
+
+</body>
+</html>
